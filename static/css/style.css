@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    width: 350px;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            margin-top: 5px;
+        }
+
+        .name h1 {
+            font-size: 20px;
+        }
+
+        .nav-bar {
+            justify-content: space-around;
+
+            .icon {
+                font-size: 20px;
+
+                i {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    main {
+        display: flex;
+
+        .profile-content .image-one {
+            display: flex;
+
+            img {
+                width: 90px;
+                height: 90px;
+                padding: 10px 5px 0px 10px;
+            }
+        }
+
+        .name-content div {
+            display: flex;
+            gap: 5px;
+            margin: 25px 0px 5px 3px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .follow-content {
+            display: flex;
+            margin-top: 60px;
+            margin-left: -59px;
+            gap: 11px;
+        }
+    }
+
+    .bio div {
+        margin: 5px 0px 0px 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .edit-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .edit {
+        padding: 5px 5px 5px 5px;
+        border-radius: 4px;
+        border: 1px solid;
+    }
+
+    .share {
+        padding: 5px 5px 5px 5px;
+        border-radius: 4px;
+        border: 1px solid;
+    }
+
+    .add {
+        padding: 5px 5px 5px 5px;
+        border-radius: 4px;
+        border: 1px solid;
+    }
+
+    .story div {
+        display: flex;
+        margin-top: 20px;
+        font-size: 50px;
+        padding-left: 10px;
+    }
+
+    .new {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .icon-one div {
+        font-size: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 0px 10px 0px 30px;
+    }
+
+    .post-image {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .image {
+        padding: 10px 0px 0px 5px;
+        height: 130px;
+        width: 120px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0px;
+        background-color: black;
+        font-size: 30px;
+        width: 400px;
+        padding: 0px 9px 0px 9px;
+        border-radius: 6px;
+        border: 1px solid black;
+    }
+}

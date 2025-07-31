@@ -1,0 +1,60 @@
+<style>
+    .layout div{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: aqua;
+        border: 1px solid;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .layout{
+        display: grid;
+        grid-template-columns: ;
+        grid-template-rows: 10vh 80vh 10vh ;
+        grid-template-areas: 
+
+        'h h h'
+        'sb1 m sb2'
+        ' f f f';
+
+    }
+    .header{
+        grid-area: h;
+    }
+    .side-bar-1{
+        grid-area: sb1;
+    }
+    .main{
+        grid-area: m;
+    }
+    .side-bar-2{
+        grid-area: sb2;
+    }
+    .footer{
+        grid-area: f;
+    }
+</style>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="header">header</div>
+        <div class="side-1">side-bar-1</div>
+        <div class="main">main</div>
+        <div class="side-2">side-bar-2</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
