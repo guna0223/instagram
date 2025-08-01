@@ -6,11 +6,13 @@
 body {
     background-color: rgb(43, 43, 43);
     color: white;
-    width: 350px;
+    width: 380px;
 
     header {
         display: flex;
         justify-content: space-between;
+        padding-left: 10px;
+        width: 380px;
 
         div {
             margin-top: 5px;
@@ -27,7 +29,8 @@ body {
                 font-size: 20px;
 
                 i {
-                    margin-left: 10px;
+                    margin-left: 12px;
+        
                 }
             }
         }
@@ -36,10 +39,11 @@ body {
     main {
         display: flex;
 
-        .profile-content .image-one {
+        .profile-content {
             display: flex;
-
+           
             img {
+                border-radius: 50%;
                 width: 90px;
                 height: 90px;
                 padding: 10px 5px 0px 10px;
@@ -134,9 +138,8 @@ body {
         bottom: 0px;
         background-color: black;
         font-size: 30px;
-        width: 400px;
+        width: 380px;
         padding: 0px 9px 0px 9px;
         border-radius: 6px;
-        border: 1px solid black;
     }
 }
