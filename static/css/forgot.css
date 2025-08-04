@@ -1,3 +1,4 @@
+/* this css file linked in forgot.html */
 * {
     padding: 0px;
     margin: 0px;
@@ -93,4 +94,7 @@ body {
             }
         }
     }
-}
+    ::placeholder{
+        color: white;
+    }
+    }

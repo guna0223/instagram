@@ -1,4 +1,4 @@
-this css is linked in login page
+/* this css is linked in login page */
 
 * {
     padding: 0px;
@@ -93,3 +93,6 @@ body {
         text-align: center;
     }
 }
+ ::placeholder{
+        color: white;
+    }
